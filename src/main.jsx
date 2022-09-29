@@ -5,11 +5,9 @@ import './index.css'
 import {TaskContextProvider} from './context/TaskContext'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  //es una buena practica
   <React.StrictMode>
     <TaskContextProvider>
       <App />
     </TaskContextProvider>
-    
   </React.StrictMode>
 )
